@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="css/magnific-popup.css">
         
         <link href="css/aos.css" rel="stylesheet">
+        <link href="css/comentario.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         
         <link href="css/templatemo-nomad-force.css" rel="stylesheet">
@@ -102,6 +103,11 @@ https://templatemo.com/tm-567-nomad-force
                             <li class="nav-item">
                                 <a class="nav-link" href="#locais">Empreendimentos Locais</a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#videos">Galeria de Vídeos</a>
+                            </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#criadores">Criadores do Portal</a>
                             </li>
@@ -1182,6 +1188,14 @@ https://templatemo.com/tm-567-nomad-force
                                     <h5 class="portfolio-title mb-0">Sandra Regina Teixeira - Marisqueira da Comunidade Quilombola Conceição de Salinas</h5>
 
                                     <!-- <p class="text-danger">O cultivo da terra e a manutenção do auto sustento</p> -->
+                                    <div id="comentarios" class="comentarios"></div>                                    
+                                    <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
+                                    <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
+                                    <br>
+                                    <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
+                                    <button onclick="adicionarComentario()">Adicionar Comentário</button>
+                                     
+ 
                                 </div>
                             </div> 
 
@@ -1315,6 +1329,7 @@ https://templatemo.com/tm-567-nomad-force
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/scrollspy.min.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/comentario.js"></script>
 
     </body>
 </html>
