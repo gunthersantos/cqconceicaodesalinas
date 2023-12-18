@@ -722,3 +722,14 @@ strong {
     font-size: 22px;
   }
 }
+
+.banner-img{
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.banner{
+  margin-top: 50px;
+  width: 100%;
+}

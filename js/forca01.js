@@ -1,5 +1,5 @@
 // Array de palavras
-const palavras = ['GATO', 'CACHORRO', 'ELEFANTE', 'GIRASSOL', 'ABACAXI'];
+const palavras = ['RUBALO', 'XANGÓ', 'BAIACU', 'PESCADA', 'ARRAIA'];
 
 var palavra;
 let tentativasErradas = 0;
