@@ -7,7 +7,8 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
         <title>Comunidade Quilombola de Conceição de Salinas</title>
 
         <!-- CSS FILES -->
@@ -62,7 +63,7 @@ https://templatemo.com/tm-567-nomad-force
 
             <nav class=" nav navbar navbar-expand-lg bg-light shadow-lg">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <img src="images/salinas/borda.png" alt="logomarca" width="130px">
                     </a>
 
@@ -582,12 +583,12 @@ https://templatemo.com/tm-567-nomad-force
                                                    </div>
                             </div> 
                         </div>
-                        <div id="comentarios" class="comentarios"></div>                                    
+                        <div id="comentariosPatrimonial" class="comentarios"></div>                                    
                         <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
                         <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
                         <br>
-                        <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                        <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
+                        <textarea id="novoComentarioPatrimonial" class="comentarioPatrimonial" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="btnPatrimonial" >Adicionar Comentário</button>                                     
     
                         </div>
                     </div>
@@ -1278,7 +1279,7 @@ https://templatemo.com/tm-567-nomad-force
                                            Jogo da Forca
                                         </h5>
                                         <p class="color-black" style="color: black; font-weight:300">
-                                            Jogo 01: <a href="page/jogoForca.html" target="_blank">Tipos de peixes</a> <br>
+                                            Jogo 01: <a href="page/jogoForca.php" target="_blank">Tipos de peixes</a> <br>
                                             </p>
                                  </div>
                             </div> 
@@ -1376,9 +1377,8 @@ https://templatemo.com/tm-567-nomad-force
                         <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
 
           </div> 
-                    </div>
-                       
-                     
+                    </div>                       
+                    
                 
             </section>
 
@@ -1434,13 +1434,14 @@ https://templatemo.com/tm-567-nomad-force
             </section>
 
             <!-- sobre os Criadores ----------------------- -->
+            <div class="banner" id="criadores">
+                <img class="banner-img" src="images/banner/banner_criadores.jpeg">
+            </img>
+            </div>
             <section class="news section-padding pb-0" id="criadores">
                 <div class="container mb-5 pb-lg-5">
                     <div class="row">
-                        <div class="col-12">
-                            <h2 class="mb-3" data-aos="fade-up" style="text-align: center;">Criadores do Portal</h2>
-                        </div>
-
+                       
                         <div class="col-lg-6 col-12 mt-3 mb-lg-5">
                             <p class="me-4" data-aos="fade-up" data-aos-delay="300" style="color: black;">O portal da Comunidade Quilombola Conceição de Salinas é produto de pesquisa sobre tecnologias ancestrais e educação empreendedora no território. Com o objetivo de apresentar os recursos e perspectivas empreendedoras do povo que vive neste lugar que emana ancestralidade, histórias e memórias.
 
@@ -1468,7 +1469,10 @@ https://templatemo.com/tm-567-nomad-force
                             </p>
                         </div>
                         </div>
-
+                        <div >
+                            <img class="banner-img" src="images/banner/criadores.jpeg">
+                        </img>
+            </div>       
                     </div>
                 </div>
             </section>
@@ -1528,7 +1532,7 @@ https://templatemo.com/tm-567-nomad-force
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/scrollspy.min.js"></script>
         <script src="js/custom.js"></script>
-        <script src="js/comentario.js"></script>
+        <script src="Controller/comentarioPatrimonial.js"></script>
 
     </body>
 </html>

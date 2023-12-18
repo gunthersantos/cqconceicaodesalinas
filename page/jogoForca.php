@@ -17,7 +17,7 @@
 <body>
     <nav class=" nav navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">
+            <a class="navbar-brand" href="../index.php">
                 <img src="../images/salinas/borda.png" alt="logomarca" width="130px">
             </a>
 
@@ -28,38 +28,38 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#patrimonial">Recursos Patrimoniais</a>
+                        <a class="nav-link" href="../index.php#patrimonial">Recursos Patrimoniais</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#coperativas">Associações e Cooperativas</a>
+                        <a class="nav-link" href="../index.php#coperativas">Associações e Cooperativas</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#cartografia">Cartografia</a>
+                        <a class="nav-link" href="../index.php#cartografia">Cartografia</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#religiao">Espaços Religiosos</a>
+                        <a class="nav-link" href="../index.php#religiao">Espaços Religiosos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#tecnologia">Tecnologias Ancestrais</a>
+                        <a class="nav-link" href="../index.php#tecnologia">Tecnologias Ancestrais</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#sociais">Grupos Sociais</a>
+                        <a class="nav-link" href="../index.php#sociais">Grupos Sociais</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#jogos">Jogos Educativos</a>
+                        <a class="nav-link" href="../index.php#jogos">Jogos Educativos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#locais">Empreendimentos Locais</a>
+                        <a class="nav-link" href="../index.php#locais">Empreendimentos Locais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#criadores">Criadores do Portal</a>
+                        <a class="nav-link" href="../index.php#criadores">Criadores do Portal</a>
                     </li>
                 </ul>
             </div>
