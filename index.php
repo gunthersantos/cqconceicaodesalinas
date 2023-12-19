@@ -620,7 +620,7 @@ https://templatemo.com/tm-567-nomad-force
             <section class="news section-padding" >
                 <div class="container">
                     <div class="row">
-                        <p class="me-4">Na comunidade, os agrupamos para a busca de direitos coletivos e ainda para articulação
+                        <p class="me-4">Na comunidade, os agrupamentos para a busca de direitos coletivos e ainda para articulação
                             de encaminhamentos e resolutivas é pulverizada em organizações que desenvolvem o
                             trabalho social e colaboram para a destreza comunitária.</p>
                         <p class="me-4">Buscamos elencar as organizações que contribuem na comunidade para este
@@ -1540,6 +1540,8 @@ https://templatemo.com/tm-567-nomad-force
                             <p data-aos="fade-up" data-aos-delay="500" style="color: black;">Apoio no Designer e Organização: Uelison Ariel - Técnico em Administração / (71) 9 9918-5717 - arielsantos.ba@protonmail.com 
                             </p>
                             <p data-aos="fade-up" data-aos-delay="500" style="color: black;">Videomaker: Sidney Souza - @sidney_souza39 / @grudsea_rc_model_adventure  / 71 9 9175-0166 / grudsea@gmail.com
+                            </p>
+                            <p data-aos="fade-up" data-aos-delay="500" style="color: black;">Programador: Elton Henrique Silvestre - Técnico de Informática. focado em desenvolvimento. Gestão de Segurança Pública e Privada. Conceitos de Tecnologias de Redes (Cisco) @ehps91  
                             </p>
                         </div>
                         </div>
