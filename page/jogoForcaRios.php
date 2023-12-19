@@ -67,8 +67,8 @@
     </nav>
 
 <div class="jogo">
-    <h1>Tipos de peixes</h1>
-    <p> Os peixes mais comuns na comunidade</p>
+    <h1>Rios da Comunidade</h1>
+    <p> Os rios pertecentes na comunidade</p>
     <div class="hangman">
       <img src="../images/img_forca_01/hangman_0.png" alt="Forca">
     </div>
@@ -82,7 +82,6 @@
       </div>
     </div>
   </div>
-  <script src="../js/forca01.js"></script>
+  <script src="../js/forcaRios.js"></script>
 </body>
 </html>
-

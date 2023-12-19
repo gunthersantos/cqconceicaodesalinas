@@ -251,7 +251,11 @@ https://templatemo.com/tm-567-nomad-force
               <section class="section-padding" >
                 <div class="container">
                     <div class="row">
-                      
+                    <p class="me-4">
+                        Espaços, lugares e dimensões espaciais da comunidade.
+                        A composição territorial e a localização de tudo que compõe este espaço que transcende a
+                        geografia, espalhado pelo mundo.</p>
+                    <p> Você conhecia a Conceição por este ângulo?</p>
 
                         <div class="col-lg-6 col-12">
                             <div class="portfolio-thumb mb-5" data-aos="fade-up">
@@ -313,7 +317,7 @@ https://templatemo.com/tm-567-nomad-force
                                 </a>
                             </div> 
                         </div>
-                        <p>
+                        <p class="me-4">
                             O Quilombo Pesqueiro de Conceição de Salinas, encontra-se localizado
                             no município de Salinas da Margarida, distrito de Conceição de
                             Salinas, nas margens da Baía de Todos os Santos (Figura 1). O Quilombo
@@ -322,7 +326,7 @@ https://templatemo.com/tm-567-nomad-force
                             rodoviária, contudo, é muito usado o sistema ferry-boat que reduz o
                             percurso para 52 km mais os 13 km de travessia oceânica.
                           </p>
-                          <p>
+                          <p class="me-4">
                             O Quilombo Pesqueiro de Conceição de Salinas é fruto de uma
                             experiência histórica assentado sobre um longo caminho de resistência
                             a partir da permanência e que, ao longo do tempo, foi constituindo o
@@ -332,14 +336,14 @@ https://templatemo.com/tm-567-nomad-force
                             Internacional do Trabalho (OIT), à qual o Brasil é consignatário desde
                             2004 quando publicou o Decreto 5.051/2004.
                           </p>
-                          <p>
+                          <p class="me-4">
                             Com base neste Decreto o Estado brasileiro reconhece direitos dos
                             "povos indígenas e tribais", entende-se os povos tribais enquanto uma
                             categoria que inclui os quilombolas, tendo como elemento fundamental a
                             consciência do grupo de sua identidade quilombola. <br />
                             <strong>(Relatório técnico preliminar, 2019, p. 9)</strong>
                           </p>
-                          <p>
+                          <p class="me-4">
                             Este reconhecimento da identidade quilombola encontra desafios
                             vinculados às questões políticas, sendo fatores limitantes no
                             município com menos de 15 mil habitantes, o distrito é apenas um dos
@@ -360,7 +364,7 @@ https://templatemo.com/tm-567-nomad-force
                             Cultural Palmares, as comunidades a seguir SE AUTO DEFINEM COMO
                             REMANESCENTES DE QUILOMBO: <br />
                           </p>
-                          <p>
+                          <p class="me-4">
                             <strong>1. COMUNIDADE CONCEIÇÃO DE SALINAS,</strong> localizada no
                             município de Salinas da Margarida/BA, registrada no Livro de Cadastro
                             Geral n.o 018, Registro no 2.465 fl.086 - Processo no
@@ -380,6 +384,16 @@ https://templatemo.com/tm-567-nomad-force
             <section class="section-padding" >
                 <div class="container">
                     <div class="row">                    
+                        <p class="me-4" >Apresentamos os recursos e tudo que faz com que a história possa ser revistada em sua
+                            ancestralidade, compreendendo o legado deixado por quem veio antes de nós e como eles
+                            moldaram este lugar para que possamos vivenciar hoje, a comunidade rica, plural e cheia
+                            de possibilidades.</p>
+                        <p class="me-4">Ao conhecer a nossa história, passamos a compreender a nossa identidade e com isso,
+                            passamos a não mais permitir que ninguém possa definir quem somos.</p>
+                           <p class="me-4"> Qual destes lugares te traz a lembrança de uma história inusitada que marca sua
+                            caminhada até aqui?</p>
+
+
 
                         <div class="col-lg-6 col-12">
                             <div class="portfolio-thumb mb-5" data-aos="fade-up">
@@ -582,14 +596,15 @@ https://templatemo.com/tm-567-nomad-force
                                         A farinhada não é apenas um processo, mas um testemunho vivo da resiliência e continuidade da cultura quilombola. Cada saco de farinha produzido na Casa de Edmilson e Raimunda carrega consigo não 					apenas o sabor da tradição, mas também a emoção de preservar e celebrar um legado precioso. Assim, a Casa de Farinha torna-se mais do que uma estrutura física; é um altar onde a história, a cultura 					e a comunidade se encontram, nutrindo não apenas estômagos, mas também a alma quilombola.</p>
                                                    </div>
                             </div> 
+                        <br><br>
                         </div>
-                        <div id="comentariosPatrimonial" class="comentarios"></div>                                    
-                        <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                        <br>
+                        <h3>COMENTÁRIOS</h3>  
                         <textarea id="novoComentarioPatrimonial" class="comentarioPatrimonial" placeholder="Adicione um comentário..."></textarea><br>
                         <button class="button-comentario" id="btnPatrimonial" >Adicionar Comentário</button>                                     
-    
+                        <br> <br> <br> 
+                        <div id="comentariosPatrimonial" class="comentarios"></div> 
+                        <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
                         </div>
                     </div>
                 </div>
@@ -605,7 +620,12 @@ https://templatemo.com/tm-567-nomad-force
             <section class="news section-padding" >
                 <div class="container">
                     <div class="row">
-                        
+                        <p class="me-4">Na comunidade, os agrupamos para a busca de direitos coletivos e ainda para articulação
+                            de encaminhamentos e resolutivas é pulverizada em organizações que desenvolvem o
+                            trabalho social e colaboram para a destreza comunitária.</p>
+                        <p class="me-4">Buscamos elencar as organizações que contribuem na comunidade para este
+                            desenvolvimento.</p>
+
 
                         <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                             <div class="news-thumb" data-aos="fade-up">
@@ -676,13 +696,14 @@ https://templatemo.com/tm-567-nomad-force
                                  </div>
                             </div> 
                         </div>
-                    <div id="comentarios" class="comentarios"></div>                                    
-                    <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                    <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                    <br>
-                    <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                    <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-
+                        <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioCooperativa" class="ComentarioCooperativa" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="btnCooperativa" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosCooperativa" class="comentarios"></div> 
+                        <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
                     </div>
                     </div>
                 </div>
@@ -699,7 +720,14 @@ https://templatemo.com/tm-567-nomad-force
             <section class="news section-padding" id="religiao">
                 <div class="container">
                     <div class="row">
-                    
+                    <p>Uma marca preponderante e pertinente na comunidade é o trato com a ancestralidade. A
+                        comunidade é compreendida por pessoas de fé, professando desde o catolicismo com a
+                        preservação das diversas festividades, pessoas que mesmo professando outra fé,
+                        religiosidade, conseguem resgatar na memória tempos que se consolidam na fé vivenciada
+                        em outro tempo passado.</p>
+                    <p>A comunidade é proliferada de congregações e espaços religiosos, e aqui fica o registro de
+                        dois grandes centros da comunidade, as casas de Pai Rafael e Pai Alex.</p>
+
                         <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                             <div class="news-thumb" data-aos="fade-up">
                                 <img src="images/salinas/Logo Oyá Bagan.jpeg" class="img-fluid large-news-image news-image" height="213px" alt="">
@@ -734,13 +762,14 @@ https://templatemo.com/tm-567-nomad-force
                                  </div>
                             </div> 
                         </div>
-                    <div id="comentarios" class="comentarios"></div>                                    
-                    <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                    <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                    <br>
-                    <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                    <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-
+                        <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioReligiao" class="ComentarioReligiao" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="buttonReligiao" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosReligiao" class="comentarios"></div> 
+                        <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
                     </div>
                     </div>
                 </div>
@@ -758,6 +787,13 @@ https://templatemo.com/tm-567-nomad-force
             <section class="section-padding" id="sociais">
                 <div class="container">
                     <div class="row">
+                        <p class="me-4">Os grupos e articulações da comunidade se resumem em alegrias, celebrações e empatia
+                            social. São coletivos que se fortalecem e se apoiam mutuamente, as relações interpessoais
+                            são geradas com confiança e rede de apoio que se consolidam nas iguarias locais e nas
+                            destrezas de cada morador da comunidade em ofertar seus dons.</p>
+                        <p class="me-4">A saúde mental é um dos fatores que mais se fortalecem nestes grupos. Sabemos da
+                            importância da mente para que o físico se mantenha firme e mantenha vivo o corpo na
+                            caminhada da vida.</p>
 
                         <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                             <div class="news-thumb" data-aos="fade-up">
@@ -827,13 +863,14 @@ https://templatemo.com/tm-567-nomad-force
                                  </div>
                             </div> 
                         </div>
-                        <div id="comentarios" class="comentarios"></div>                                    
+                        <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioSociais" class="ComentarioSociais" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="buttonSociais" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosSociais" class="comentarios"></div> 
                         <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                        <br>
-                        <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                        <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-    
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
                         </div>
                     </div>
                 </div>
@@ -851,7 +888,18 @@ https://templatemo.com/tm-567-nomad-force
             <section class="news section-padding">
                 <div class="container">
                     <div class="row">
-  
+
+                    <p class="me-4">Congregar os empreendedores e empreendedoras da comunidade e tentar fortalecer seus
+                        negócios foi um dos maiores desafios da pesquisa. Identificar, mobilizar, sensibilizar e
+                        fomentar uma educação continuada e fortalecida pela coletividade é o maior objetivo em
+                        tê-los aqui no portal.</p>
+                    <p class="me-4">Aqui você encontrará o empreendimento que supra a sua necessidade e desperte desejos!
+                        Povos das águas mostrando o reflexo da maré, quando fora dela. Os avanços e novos
+                        contextos condicionam o desenvolvimento de mais destrezas e a necessidade de inovar, se
+                        reinventar sempre.</p>
+                    <p class="me-4">Você já conhecia estes empreendimentos?</p>
+
+
 
                         <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                             <div class="news-thumb" data-aos="fade-up">
@@ -1244,13 +1292,14 @@ https://templatemo.com/tm-567-nomad-force
                             </div> 
                         </div>
                        
-                        <div id="comentarios" class="comentarios"></div>                                    
+                        <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioEmpreendedorismo" class="ComentarioEmpreendedorismo" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="buttonEmpreendedorismo" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosEmpreendedorismo" class="comentarios"></div> 
                         <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                        <br>
-                        <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                        <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-    
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
                         </div>
                     </div>
                 </div>
@@ -1270,17 +1319,28 @@ https://templatemo.com/tm-567-nomad-force
             <section class="section-padding">
                 <div class="container">
                     <div class="row">                        
+                        <p class="me-4">A aprendizagem sobre o território e as formas como podemos fortalecer uma educação
+                            empreendedora, são ilustradas para proporcionar inovação e mais apreensão daquilo que
+                            se deseja ensinar.</p>
+                        <p class="me-4">Os jogos oportunizam não meramente o conhecimento específico, mas sobretudo
+                            oportuniza o desenvolvimento do raciocínio lógico, além da interação tecnológica digital que
+                            tende a congregar uma aprendizagem contextual, dinâmica e divertida.</p>
+                        <p class="me-4">Tem o jogo da forca e um repositório do Instituto Federal da Bahia, que cedido gentilmente
+                            pelo professor Joacir Simões, fora concedido para degustação dos conhecimentos
+                            de África e Diáspora em contextos digitais.</p>
+                        <p class="me-4">Vamos jogar?</p>
 
                         <div class="col-lg-6 col-12 mb-5 mb-lg-0">
                             <div class="news-thumb" data-aos="fade-up">
                                 <!-- <img src="images/salinas/vida_nova.JPG" class="img-fluid large-news-image news-image" width="380px" alt=""> -->
                                 <div class="news-text-info" >
                                         <h5 class="news-title">
-                                           Jogo da Forca
+                                           Jogos autorais
                                         </h5>
                                         <p class="color-black" style="color: black; font-weight:300">
-                                            Jogo 01: <a href="page/jogoForca.php" target="_blank">Tipos de peixes</a> <br>
-                                            </p>
+                                            Jogo 01: <a href="page/jogoForcaPeixe.php" target="_blank">Forca - Tipos de peixes</a> <br>
+                                            Jogo 02: <a href="page/jogoForcaRios.php" target="_blank">Forca - Rios da Comunidade</a> <br>
+                                        </p>
                                  </div>
                             </div> 
                         </div>
@@ -1298,13 +1358,14 @@ https://templatemo.com/tm-567-nomad-force
                                  </div>
                             </div> 
                          </div>
-                            <div id="comentarios" class="comentarios"></div>                                    
-                            <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                            <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                            <br>
-                            <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                            <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-    
+                         <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioJogos" class="ComentarioJogos" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="buttonJogos" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosJogos" class="comentarios"></div> 
+                        <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
                             </div>
                            
                        
@@ -1323,6 +1384,17 @@ https://templatemo.com/tm-567-nomad-force
             <section class="section-padding" >
                 <div class="container">
                     <div class="row">
+                    <p class="me-4">Temos aqui as narrativas de uma marisqueira, Sandra Regina que narra sua trajetória com
+                        a mariscagem à beira da maré, um pescador, Marcos Teixeira que fala dos desafios e dos
+                        caminhos da pesca que lhe condiciona o título de mestre e uma apresentação da
+                        comunidade por um ângulo aéreo e com imagens da comunidade.</p>
+                    <p class="me-4">O texto é escrito e narrado por Crissiele Roza, jornalista, primeira cotista da comunidade
+                        como remanescente de quilombo, formada pela Universidade Federal da Bahia - UFBA</p>
+                    <p class="me-4">São moradores da comunidade que traduzem as possibilidades de uma aprendizagem
+                        significativa e que emanam empreendedorismo no modo de vida, como já caracteriza os
+                        remanescentes de quilombo.</p>
+                    <p class="me-4">Aqui, representam várias vozes e vidas, que se espalham pelo território e fazem deste lugar,
+                        a magia de viver em ancestralidade.</p>
 
                         <div class="col-lg-6 col-12">
                             <div class="portfolio-thumb mb-5" data-aos="fade-up">
@@ -1369,13 +1441,14 @@ https://templatemo.com/tm-567-nomad-force
                                 </div>
                             </div>  -->
                         </div>
-                        <div id="comentarios" class="comentarios"></div>                                    
+                        <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioGalVideos" class="ComentarioGalVideos" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="buttonGalVideos" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosGalVideos" class="comentarios"></div> 
                         <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                        <br>
-                        <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                        <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
           </div> 
                     </div>                       
                     
@@ -1420,13 +1493,14 @@ https://templatemo.com/tm-567-nomad-force
                             </div>
                         </div>
                        
-                <div id="comentarios" class="comentarios"></div>                                    
-                <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
-                <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a>
-                <br>
-                <textarea id="novoComentario" placeholder="Adicione um comentário..."></textarea><br>
-                <button class="button-comentario" onclick="adicionarComentario()">Adicionar Comentário</button>                                     
-
+                        <h3>COMENTÁRIOS</h3>  
+                        <textarea id="novoComentarioAncestrais" class="ComentarioAncestrais" placeholder="Adicione um comentário..."></textarea><br>
+                        <button class="button-comentario" id="buttonAncestrais" >Adicionar Comentário</button>                                     
+                        <br> <br> <br> 
+                        <div id="comentariosAncestrais" class="comentarios"></div> 
+                        <a id="mostrarMais" href="#mostrar" style="display: none;" onclick="mostrarMaisComentarios()">Mais Comentários</a>
+                        <a id="mostrarMenos" href="#esconder" style="display: none;" onclick="mostrarMenosComentarios()">Ocultar Comentários</a> 
+                       
                 </div>
                     </div>                  
 
@@ -1446,10 +1520,10 @@ https://templatemo.com/tm-567-nomad-force
                             <p class="me-4" data-aos="fade-up" data-aos-delay="300" style="color: black;">O portal da Comunidade Quilombola Conceição de Salinas é produto de pesquisa sobre tecnologias ancestrais e educação empreendedora no território. Com o objetivo de apresentar os recursos e perspectivas empreendedoras do povo que vive neste lugar que emana ancestralidade, histórias e memórias.
 
                             </p>
-                            <p style="color: black;">O desenvolvimento é proveniente da conclusão do Mestrado Profissional em História da África, Diáspora e Povos Indígenas da UFRB - Universidade Federal do Recôncavo Baiano, sob a orientação do Profº Drº Gabriel da Costa Ávila, cuja fundamentação é a apresentação do produto da pesquisa como entrega à sociedade.
+                            <p class="me-4" style="color: black;">O desenvolvimento é proveniente da conclusão do Mestrado Profissional em História da África, Diáspora e Povos Indígenas da UFRB - Universidade Federal do Recôncavo Baiano, sob a orientação do Profº Drº Gabriel da Costa Ávila, cuja fundamentação é a apresentação do produto da pesquisa como entrega à sociedade.
                             </p>
                             </p>
-                            <p style="color: black;">Desta forma reunimos os melhores profissionais para que junto ao pesquisador o trabalho tivesse o formato e entrega condizente à real necessidade da comunidade e que agregasse ao Quilombo maiores alternativas na prospecção de sua existência, luta e reexistência. Mostrando ao mundo através das possibilidades tecnológicas a potência existente em um lugar chamado Conceição de Salinas.
+                            <p class="me-4" style="color: black;">Desta forma reunimos os melhores profissionais para que junto ao pesquisador o trabalho tivesse o formato e entrega condizente à real necessidade da comunidade e que agregasse ao Quilombo maiores alternativas na prospecção de sua existência, luta e reexistência. Mostrando ao mundo através das possibilidades tecnológicas a potência existente em um lugar chamado Conceição de Salinas.
 
                             </p>
                         </div>
@@ -1532,7 +1606,14 @@ https://templatemo.com/tm-567-nomad-force
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/scrollspy.min.js"></script>
         <script src="js/custom.js"></script>
+        <script src="Controller/comentarioCooperativa.js"></script>
         <script src="Controller/comentarioPatrimonial.js"></script>
+        <script src="Controller/comentarioReligiao.js"></script>
+        <script src="Controller/comentarioSociais.js"></script>
+        <script src="Controller/comentarioEmpreededorismo.js"></script>
+        <script src="Controller/comentarioJogos.js"></script>
+        <script src="Controller/comentarioGalVideos.js"></script>
+        <script src="Controller/comentarioAncestrais.js"></script>
 
     </body>
 </html>

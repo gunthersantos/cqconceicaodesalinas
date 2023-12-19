@@ -1,10 +1,10 @@
-selecionarComentarioPatrimonial(8);
+selecionarComentarioEmpreendedorismo(4);
 
 $(document).ready(function() {
-    $('#btnPatrimonial').click(function() {
+    $('#buttonEmpreendedorismo').click(function() {
 
-        var comentario = $('.comentarioPatrimonial').val();
-        var sessao = "patrimonial";  
+        var comentario = $('.ComentarioEmpreendedorismo').val();
+        var sessao = "locais";  
 
         $.ajax({
             url: './Model/insertComentario.php',
@@ -15,7 +15,7 @@ $(document).ready(function() {
                 sessao: sessao
             },
             success: function(data) {                
-              selecionarComentarioPatrimonial(data.idSessao)
+                selecionarComentarioEmpreendedorismo(data.idSessao)
                
                 },
             error: function(xhr, status, error) {
@@ -32,7 +32,7 @@ var numComentarios = 0;
 var comentariosVisiveis = 0;
 
 
-function selecionarComentarioPatrimonial(idSessao) {
+function selecionarComentarioEmpreendedorismo(idSessao) {
 
     $.ajax({
 		url: "./Model/selecionarComentarios.php",
@@ -45,10 +45,9 @@ function selecionarComentarioPatrimonial(idSessao) {
 
                 console.log(data);
                 
-               preencherComentarioPatrimonial(data)
+               preencherComentarioEmpreendedorismo(data)
 
-            }
-			
+            }			
             
 		},
          error: function(xhr, status, error) {
@@ -60,10 +59,10 @@ function selecionarComentarioPatrimonial(idSessao) {
 
 }
 
-function preencherComentarioPatrimonial(data){
+function preencherComentarioEmpreendedorismo(data){
 
     if (data.length > 0) {
-        var comentariosDiv = document.getElementById('comentariosPatrimonial');
+        var comentariosDiv = document.getElementById('comentariosEmpreendedorismo');
       i = data.length;
       j = 0;
 
@@ -73,9 +72,8 @@ function preencherComentarioPatrimonial(data){
         var novoComentario = document.createElement('p');   
         novoComentario.textContent = comentario;
         comentariosDiv.appendChild(novoComentario);
-
-
-        document.getElementById('novoComentarioPatrimonial').value = '';
+   
+        document.getElementById('novoComentarioEmpreendedorismo').value = '';
 
         numComentarios++;
         comentariosVisiveis++;
@@ -96,10 +94,11 @@ function preencherComentarioPatrimonial(data){
   }
 }           
 
+
 // ORGANIZAÇÃO DE COMENTARIOS 
 
 function esconderComentariosAntigos() {
-    var comentarios = document.getElementById('comentariosPatrimonial').getElementsByTagName('p');
+    var comentarios = document.getElementById('comentariosEmpreendedorismo').getElementsByTagName('p');
     for (var i = 0; i < comentarios.length - 5; i++) {
       comentarios[i].style.display = 'none';
     }
@@ -108,7 +107,7 @@ function esconderComentariosAntigos() {
   }
   
   function mostrarMaisComentarios() {
-    var comentarios = document.getElementById('comentariosPatrimonial').getElementsByTagName('p');
+    var comentarios = document.getElementById('comentariosEmpreendedorismo').getElementsByTagName('p');
     for (var i = 0; i < comentarios.length; i++) {
       comentarios[i].style.display = 'block';
     }

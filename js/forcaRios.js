@@ -1,5 +1,5 @@
 // Array de palavras
-const palavras = ['RUBALO', 'XANGÓ', 'BAIACU', 'PESCADA', 'ARRAIA'];
+const palavras = ['NONOCA', 'CAIRU', 'MEIO', 'HOMENS', 'DENDEZEIRO TORTO', 'SAPUCAIA'];
 
 var palavra;
 let tentativasErradas = 0;
@@ -15,15 +15,12 @@ reiniciarJogo();
 function reiniciarJogo(){
     palavra = palavras[Math.floor(Math.random() * palavras.length)];
     tentativasErradas = 0;
-    hangmanImage.src = `/../images/img_forca_01/hangman_${tentativasErradas}.png`;
+    hangmanImage.src = `../images/img_forca_01/hangman_${tentativasErradas}.png`;
     for (let i = 0; i < palavra.length; i++) {
         hiddenWord += '__ ';
       }
       wordElement.textContent = hiddenWord;
 }
-
-
-
 
 
 // Cria botões para cada letra do alfabeto
@@ -52,12 +49,13 @@ function checkLetter(letter) {
   
       if (!newWord.includes('_')) {
         alert('Parabéns! Você ganhou!');
+        setTimeout(reiniciarJogo(),2000);
       }
     } else {
       tentativasErradas++;
       if (tentativasErradas < maxTentativas) {
         // Atualiza a imagem da forca
-        hangmanImage.src = `../images/img_forca_01/hangman_${tentativasErradas}.png`;
+        hangmanImage.src = `../images/img_forca_01/hangman_${tentativasErradas}.png`;        
       } else {
         hangmanImage.src = `../images/img_forca_01/hangman_${tentativasErradas}.png`;
         alert('Você perdeu! A palavra era: ' + palavra);

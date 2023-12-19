@@ -1,10 +1,10 @@
-selecionarComentarioPatrimonial(8);
+selecionarComentarioGalVideos(2);
 
 $(document).ready(function() {
-    $('#btnPatrimonial').click(function() {
+    $('#buttonGalVideos').click(function() {
 
-        var comentario = $('.comentarioPatrimonial').val();
-        var sessao = "patrimonial";  
+        var comentario = $('.ComentarioGalVideos').val();
+        var sessao = "videos";  
 
         $.ajax({
             url: './Model/insertComentario.php',
@@ -15,7 +15,7 @@ $(document).ready(function() {
                 sessao: sessao
             },
             success: function(data) {                
-              selecionarComentarioPatrimonial(data.idSessao)
+                selecionarComentarioGalVideos(data.idSessao)
                
                 },
             error: function(xhr, status, error) {
@@ -32,7 +32,7 @@ var numComentarios = 0;
 var comentariosVisiveis = 0;
 
 
-function selecionarComentarioPatrimonial(idSessao) {
+function selecionarComentarioGalVideos(idSessao) {
 
     $.ajax({
 		url: "./Model/selecionarComentarios.php",
@@ -45,10 +45,9 @@ function selecionarComentarioPatrimonial(idSessao) {
 
                 console.log(data);
                 
-               preencherComentarioPatrimonial(data)
+               preencherComentarioGalVideos(data)
 
-            }
-			
+            }			
             
 		},
          error: function(xhr, status, error) {
@@ -60,10 +59,10 @@ function selecionarComentarioPatrimonial(idSessao) {
 
 }
 
-function preencherComentarioPatrimonial(data){
+function preencherComentarioGalVideos(data){
 
     if (data.length > 0) {
-        var comentariosDiv = document.getElementById('comentariosPatrimonial');
+        var comentariosDiv = document.getElementById('comentariosGalVideos');
       i = data.length;
       j = 0;
 
@@ -73,9 +72,8 @@ function preencherComentarioPatrimonial(data){
         var novoComentario = document.createElement('p');   
         novoComentario.textContent = comentario;
         comentariosDiv.appendChild(novoComentario);
-
-
-        document.getElementById('novoComentarioPatrimonial').value = '';
+   
+        document.getElementById('novoComentarioGalVideos').value = '';
 
         numComentarios++;
         comentariosVisiveis++;
@@ -96,10 +94,11 @@ function preencherComentarioPatrimonial(data){
   }
 }           
 
+
 // ORGANIZAÇÃO DE COMENTARIOS 
 
 function esconderComentariosAntigos() {
-    var comentarios = document.getElementById('comentariosPatrimonial').getElementsByTagName('p');
+    var comentarios = document.getElementById('comentariosGalVideos').getElementsByTagName('p');
     for (var i = 0; i < comentarios.length - 5; i++) {
       comentarios[i].style.display = 'none';
     }
@@ -108,7 +107,7 @@ function esconderComentariosAntigos() {
   }
   
   function mostrarMaisComentarios() {
-    var comentarios = document.getElementById('comentariosPatrimonial').getElementsByTagName('p');
+    var comentarios = document.getElementById('comentariosGalVideos').getElementsByTagName('p');
     for (var i = 0; i < comentarios.length; i++) {
       comentarios[i].style.display = 'block';
     }
