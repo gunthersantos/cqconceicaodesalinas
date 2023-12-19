@@ -1,0 +1,18 @@
+textarea {
+    width: 550px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.button-comentario{
+  margin-top: 10px;
+  width: 15%;
+  align-items: center;
+
+}
+
+.comentarios{
+  align-items: center;
+  justify-content: center;
+}
+

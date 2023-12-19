@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.word-container {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.letters {
+  margin-top: 20px;
+}
+
+.letter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.letter-buttons button {
+  font-size: 18px;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.letter-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.hangman {
+  margin-top: 30px;
+}
+
+/* Estilos para o boneco da forca */
+.hangman img {
+  max-width: 100%;
+  height: auto;
+}
+
+.jogo{
+  margin-top: 5%;
+}
